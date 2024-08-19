@@ -311,14 +311,18 @@ h3 {
   border-radius: 30px;
   padding: 30px;
   display: flex;
+  flex-wrap: wrap;
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .skills .holder-blue {
     flex-direction: column;
+    padding: 15px;
   }
 }
 .skills .holder-blue .left-column {
   flex: 1;
+  margin-right: 0;
+  gap: 5px;
 }
 .skills .holder-blue .left-column ul {
   display: flex;
