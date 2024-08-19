@@ -53,7 +53,7 @@ export default function Home() {
                         Thank you for joining me on this exciting path!
                     </p>
                     <div className ="call-to-action">
-                        <a href="./Tariq-Gafar May2025.pdf" className ="button black">
+                        <a href="./Tariq-A-Gafar resume.pdf" className ="button black">
                             View Resume
                         </a>
                        
