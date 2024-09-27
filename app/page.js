@@ -47,8 +47,11 @@ export default function Home() {
                         Tariq Gafar
                     </h1>
                     <p>
-                        Hello! I’m Tariq Gafar, a senior Computer Science major with a deep passion for programming and technology. As I advance in my studies and career, 
-                        I'm continually excited about expanding my skills and exploring new challenges in the tech world. 
+                        Hello! I’m Tariq Gafar, a senior Computer Science major 
+                        with a deep passion for programming and technology.
+                         As I advance in my studies and career, 
+                        I'm continually excited about expanding my skills
+                         and exploring new challenges in the tech world. 
                         I am committed to staying engaged with the latest industry trends and am eager to share my journey and progress with you. 
                         Thank you for joining me on this exciting path!
                     </p>
@@ -72,7 +75,7 @@ export default function Home() {
                 </div>
             </div>
             <div className ="hero-gray">
-                <img src="./imgs/accenturePIC-fotor-bg-remover-2024073114276.png" alt="Tariq Gafar" width="100%"/>
+                <img src="./imgs/NSBEphotoshoot-removebg.png" alt="Tariq Gafar" width="100%"/>
             </div>
         </section>
         <section className Name="logos container">
@@ -103,6 +106,8 @@ export default function Home() {
             <div className ="holder-blue">
                 <div className ="left-column">
                     <h3>Programming Languages</h3>
+                    <div className="bubbles">
+
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -112,7 +117,9 @@ export default function Home() {
                         <li>Python</li>
                         <li>Kotlin</li>
                     </ul>
+                    </div>
                     <h3>Frameworks/Technologies</h3>
+                    <div className="bubbles2">
                     <ul>
                         <li>React</li>
                         <li>Git</li>
@@ -120,9 +127,8 @@ export default function Home() {
                         <li>SASS</li>
                         <li>Node.js</li>
                         <li>SAP HANA Studio</li>
-                        
-                        
                     </ul>
+                    </div>
                 </div>
                 <div className ="right-column">
                     <h3>A bit about me</h3>

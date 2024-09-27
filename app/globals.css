@@ -88,6 +88,8 @@ header nav ul li a:hover {
   background-color: var(--base-100);
   border-radius: 10px;
   text-decoration: none;
+  transform: scale(1.1); /* Slightly enlarges the item on hover */
+
 }
 header nav .mobile-toggle {
   display: none;
@@ -312,24 +314,83 @@ h3 {
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
+  box-sizing: border-box;
+  max-width: 100%;
 }
+
 @media (max-width: 1024px) {
   .skills .holder-blue {
     flex-direction: column;
   }
 }
+@media screen and (min-width:400px) and (max-width:478px){
+  .bubbles,
+  .bubbles2{
+    font-size: 14px;
+    margin-right: 6px;
+  }
+  .skills .holder-blue .left-column h3 {
+   font-size: 24px;
+  }
+  .skills .holder-blue .left-column ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 10px;
+  }
+}
+@media screen and (min-width:375px) and (max-width:400px){
+  .bubbles{
+    font-size: 16px;
+  }
+  .skills .holder-blue .left-column h3 {
+   font-size: 22px;
+  }
+  .skills .holder-blue .left-column ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 10px;
+  }
+  .skills .holder-blue .right-column p {
+    font-size: 18px;
+    margin-right: 18px;
+  }
+}
+@media screen and (min-width:350px) and (max-width:375px) {
+  .bubbles{
+    font-size: 8px;
+  }
+  .skills .holder-blue .left-column h3 {
+   font-size: 20px;
+  }
+  .skills .holder-blue .left-column ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 10px;
+  }
+  .skills .holder-blue .right-column p {
+    font-size: 18px;
+    margin-right: 18px;
+  }
+}
+
 .skills .holder-blue .left-column {
   flex: 1;
-  word-wrap: break-word;
+  padding-right: 30px;
+  min-width: 0;
 }
+
 .skills .holder-blue .left-column ul {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
   gap: 10px;
-  margin-right: 100px;
+  margin-right: 0px;
   margin-bottom: 20px;
 }
+
 .skills .holder-blue .left-column ul li {
   display: inline-block;
   background-color: var(--blue-400);
@@ -337,11 +398,14 @@ h3 {
   border-radius: 15px;
   margin-bottom: 10px;
 }
+
 .skills .holder-blue .right-column {
   flex: 1;
 }
+
 .skills .holder-blue .right-column p {
   margin-bottom: 20px;
+  font-size: 25px;
 }
 
 .work-experience .jobs {
@@ -601,5 +665,7 @@ h3 {
   border: none;
   cursor: pointer;
 }
+
+
 
 
