@@ -66,10 +66,10 @@ export default function Home() {
                     </div>
                     <div className ="social-links">
                         <a href="https://github.com/Tariqgafar21">
-                            <img src="./imgs/github.png" alt="GitHub" width="48"/>
+                            <img src="./imgs/github-fill.png" alt="GitHub" width="48"/>
                         </a>
                         <a href="https://www.linkedin.com/in/tariqgafar/">
-                            <img src="./imgs/linkedin.png" alt="LinkedIn" width="48"/>
+                            <img src="./imgs/linkedin-box-fill.png" alt="LinkedIn" width="48"/>
                         </a>
                     </div>
                 </div>
