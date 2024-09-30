@@ -88,11 +88,11 @@ header nav ul li a {
   color: var(--base-800);
 }
 header nav ul li a:hover {
-  background-color: var(--base-100);
+  background-color: #A1887F; /* Warm Gray */
+  color: #F4EDE1; /* Use beige text for contrast */
   border-radius: 10px;
   text-decoration: none;
   transform: scale(1.1); /* Slightly enlarges the item on hover */
-
 }
 header nav .mobile-toggle {
   display: none;
